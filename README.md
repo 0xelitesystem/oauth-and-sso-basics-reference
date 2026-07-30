@@ -8,15 +8,19 @@ OAuth 2.0 is a delegation protocol: it lets a user grant an application limited 
 
 ## What is inside
 
-- `01-roles-and-the-problem.md` what OAuth solves and the four roles.
-- `02-authorization-code-flow-with-pkce.md` the recommended flow, step by step.
-- `03-tokens-and-scopes.md` access, refresh, and ID tokens, plus scopes.
-- `04-oidc-and-sso.md` OpenID Connect and how single sign-on works.
-- `05-saml-vs-oidc-and-mistakes.md` SAML in brief and common errors to avoid.
+- [01-roles-and-the-problem.md](01-roles-and-the-problem.md) what OAuth solves and the four roles.
+- [02-authorization-code-flow-with-pkce.md](02-authorization-code-flow-with-pkce.md) the recommended flow, step by step.
+- [03-tokens-and-scopes.md](03-tokens-and-scopes.md) access, refresh, and ID tokens, plus scopes.
+- [04-oidc-and-sso.md](04-oidc-and-sso.md) OpenID Connect and how single sign-on works.
+- [05-saml-vs-oidc-and-mistakes.md](05-saml-vs-oidc-and-mistakes.md) SAML in brief and common errors to avoid.
 
 ## The stance
 
 This reference treats OAuth and SSO as a careful exchange of trust, not a black box you bolt on. Knowing the roles, the flow, and what each token is for lets you integrate login safely and debug it when it breaks. The goal is correctness on the details that matter for security, especially PKCE and token handling.
+
+## More
+
+Part of a catalog of single-file browser tools and plain-language references, all MIT licensed and dependency-free: [0xelitesystem.github.io](https://0xelitesystem.github.io/). Built by [elitesystem.ai](https://elitesystem.ai).
 
 ## License
 
